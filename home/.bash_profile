@@ -33,3 +33,4 @@ cl ()
 alias la="ls -A"
 
 alias homeshick="$HOME/.homesick/repos/homeshick/home/.homeshick"
+homeshick --quiet refresh
