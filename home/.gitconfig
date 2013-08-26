@@ -1,0 +1,23 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = Calvin Giles
+	email = calvin.giles@gmail.com
+[core]
+	excludesfile = /Users/calvin/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	follow = log --decorate --stat --follow
+	history = log --decorate --stat --graph
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = simple
