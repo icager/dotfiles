@@ -6,6 +6,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 GIT_PS1_SHOWUPSTREAM="auto"
 GIT_PS1_SHOWCOLORHINTS="yes"
 source ~/.git-prompt.sh
+source ~/.git-completion.bash
 ##export PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ ";'
 
 ## Red Error code tweaks that work with Git
